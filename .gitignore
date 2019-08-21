@@ -1,39 +1,16 @@
-##ignore this file##
-/target/ 
-
-
-.classpath
+/target
+/out
+/classes
+/checkouts
+/.lein-*
+/.env
+.DS_Store
+*/target
+.svn
 .project
-.settings      
-##filter databfile、sln file##
-*.mdb  
-*.ldb  
-*.sln    
-##class file##
-*.com  
-*.class  
-*.dll  
-*.exe  
-*.o  
-*.so  
-# compression file
-*.7z  
-*.dmg  
-*.gz  
-*.iso  
-*.jar  
-*.rar  
-*.tar  
-*.zip  
-*.via
-*.tmp
-*.err 
-# OS generated files #  
-.DS_Store  
-.DS_Store?  
-._*  
-.Spotlight-V100  
-.Trashes  
-Icon?  
-ehthumbs.db  
-Thumbs.db  
+.settings
+.classpath
+logs
+/log
+/tmp
+hotspot.log
